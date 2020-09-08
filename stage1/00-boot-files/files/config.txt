@@ -1,0 +1,16 @@
+dtparam=spi=on
+dtparam=audio=off
+
+[pi4]
+dtoverlay=vc4-fkms-v3d
+max_framebuffers=2
+
+[all]
+start_x=1
+gpu_mem=128
+dtoverlay=enc28j60
+dtoverlay=pi3-disable-bt
+gpio=45=op,dh
+disable_camera_led=1
+disable_splash=1
+force_eeprom_read=0

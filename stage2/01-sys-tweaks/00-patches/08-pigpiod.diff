@@ -1,0 +1,11 @@
+--- stage2.orig/rootfs/lib/systemd/system/pigpiod.service
++++ stage2/rootfs/lib/systemd/system/pigpiod.service
+@@ -1,7 +1,7 @@
+ [Unit]
+ Description=Daemon required to control GPIO pins via pigpio
+ [Service]
+-ExecStart=/usr/bin/pigpiod -l
++ExecStart=/usr/bin/pigpiod -l -n 127.0.0.1
+ ExecStop=/bin/systemctl kill pigpiod
+ Type=forking
+ [Install]

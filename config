@@ -1,0 +1,11 @@
+IMG_NAME='Limelight'
+TARGET_HOSTNAME=limelight
+ENABLE_SSH=1
+LOCALE_DEFAULT=en_US.UTF-8
+KEYBOARD_KEYMAP=us
+KEYBOARD_LAYOUT="English (US) - English (US\\, international with dead keys)"
+TIMEZONE_DEFAULT=America/New_York
+DEPLOY_ZIP=0
+PRESERVE_CONTAINER=0
+CONTINUE=0
+PHOTONVISION_JAR_URL=https://photonvision.org/photonvision-v2020.9.1-alpha-10-g17057f0a.jar
