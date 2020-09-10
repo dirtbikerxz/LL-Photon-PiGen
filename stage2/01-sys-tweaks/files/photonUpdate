@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Enter 'd' to update to latest Dev version, 'r' to latest Public Release version"
+echo "Enter 'd' to update to latest Dev version, 'r' to latest Public Release version, or 'c' to enter a custom url to a PhotonVision jar file."
 read str1
 
 #setting download url
@@ -7,9 +7,12 @@ if [ "$str1" == "d" ]; then
     URL="https://api.github.com/repos/photonvision/photonvision/releases/tags/Dev"
 elif [ "$str1" == "r" ]; then
     URL="https://api.github.com/repos/photonvision/photonvision/releases/latest"
+elif [ "$str1" == "c" ]; then
+    echo "Enter the url to the PhotonVision jar file:"
+    read URL
 else
     echo "invalid input"
-    exit 1    
+    exit 1
 fi
 
 #installing any necessary dependencies
