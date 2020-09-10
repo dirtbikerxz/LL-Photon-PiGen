@@ -29,6 +29,10 @@ You can then remove the build container with `docker rm -v pigen_work`.
 
 After a successful build, the build container is removed by default.
 
+## Installing
+
+Use [balenaEtcher](https://www.balena.io/etcher/) to flash the image to the Limelight.
+
 ## Updating
 
 To update to the latest PhotonVision version, you can either download the latest image and reimage the Limelight, or connect the Limelight to internet, ssh into it with the username: `pi` password: `raspberry` and run:
