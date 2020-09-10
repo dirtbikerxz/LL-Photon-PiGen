@@ -31,7 +31,7 @@ After a successful build, the build container is removed by default.
 
 ## Updating
 
-To update to the latest PhotonVision version, you can either download the latest image and reimage the Limelight, or connect the Limelight to internet and run:
+To update to the latest PhotonVision version, you can either download the latest image and reimage the Limelight, or connect the Limelight to internet, ssh into it with the username: `pi` password: `raspberry` and run:
 ```bash
 sudo photonUpdate
 ```
