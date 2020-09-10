@@ -11,6 +11,8 @@ install -m 644 files/console-setup   	"${ROOTFS_DIR}/etc/default/"
 
 install -m 755 files/rc.local		"${ROOTFS_DIR}/etc/"
 
+install -m 777 files/photonUpdate		"${ROOTFS_DIR}/bin/"
+
 mkdir -p "${ROOTFS_DIR}/opt/photonvision"
 cp -r files/photonvision_config "${ROOTFS_DIR}/opt/photonvision"
 curl -sL "${PHOTONVISION_JAR_URL}" --output "${ROOTFS_DIR}/opt/photonvision/photonvision.jar"

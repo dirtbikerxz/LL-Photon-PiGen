@@ -1,6 +1,6 @@
 # LL-Photon-PiGen
 
-_Pi-gen tool to create a Limelight image of [PhotonVision](https://github.com/PhotonVision/photonvision)._
+_[Pi-gen](https://github.com/gloworm-vision/pi-gen) tool to create a [Limelight](https://limelightvision.io/) image of [PhotonVision](https://github.com/PhotonVision/photonvision)._
 
 
 ## Dependencies
